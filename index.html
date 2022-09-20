@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel = "icon" href = "./assets/images/logo.jpg">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>JetPet</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar fixed-top bg-light">
+            <div class="container-fluid d-flex justify-content-around">
+                <div class="navbar-brand d-flex">
+                    <h1 style="color:darkblue" id="BrandName">JetPet</h1>
+                </div>
+                <div>
+                    <h4 style="color:darkblue" id="call-now">Call Now: (604)238-7387</h4>
+                </div>
+            </div>
+        </nav> 
+    </header>
+
+    <section >
+        <div class="back-image">
+            <div class="centered-text fw-bold">
+                <p class="fw-bold display-3">Dog Boarding Vancouver</p>
+                <h4>20% off your pup's stay during January and February</h4>
+                <h6>*Offer valid for all bookings completed by February 28,2022</h6>
+            </div>
+            <div id="form-div">
+                <div id="information" class="fw-bold">
+                    Enter your info to get the special room discount
+                </div>
+                <form class="container form">
+                    <label  class="form-label" for="name">What is your dogs name? *</label>
+                    <input class="form-control" type="text" required>
+                
+                    <label class="form-label" for="breed">What breed is your dog?</label>
+                    <input class="form-control" type="text">
+
+                    <label class="form-label" for="age">How old is your dog?</label>
+                    <input class="form-control" type="number">
+                
+                    <button type="submit" id="continue-button" class="btn">Continue >></button>
+                    <center><p style="font-size: small;">100% Privacy Guaranteed</p></center>
+                </form>
+            </div>
+        </div>
+    </section >
+
+    <section id="about-us" class="d-flex flex-row justify-content-around">
+        <div>
+            <h4 class="m-5" style="color:darkblue">
+                We're More Than Just Pet Care. We Care For Your Pet.
+            </h4>
+            <p class="m-5 w-75" id="paragraph">
+                Jet Pet resort is commited to excellence in every aspect of
+                our service and that includes a carefully designed premium
+                facility that reflects the safe,fun and relaxed environment we
+                provide our pet guests.<br>
+                Our resorts were uilt from the ground with safety as a priority
+                as well as how our suites and play areas are laid out to reduce
+                anxiety and minimize unnececcary stimulation in order to
+                provide the best stay for your pet.Featuring over 10,000
+                square feet of indoor and outdoor boarding,courtyards,
+                lounges and spa amenties. Jet Pet resort caters to every pet.
+                Our live webcams help keep you connected you while you are away.
+            </p>
+        </div>
+        <div style="margin-right:4%;">
+            <img src="./assets/images/img-3.jpg" style="height:65vh;" id="PetImage" alt="">
+        </div>
+    </section>
+
+    <section id="experience" class="text-center p-4">
+        <h1>We provide a fun, safe and <br>personalized experience</h1><br>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.youtube.com/embed/-BcxNByvW78" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="width:90%;max-width:550px;height:55vh;border:10px solid lightgray;border-radius:15px;">
+            </iframe>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 class="m-4 p-2 text-center" style="color: darkblue;">The JetPet Guarantee</h2>
+            <div class="text-center">
+                <div class="d-flex flex-row" id="services-row">
+                    <div class="p-2 w-25">
+                            <img src="./assets/images/heart-icon.svg" height="40" width="40" alt="">
+                            <p>Specialized care and love from our highly trained proffesional staff.</p>
+                    </div>
+                    <div class="p-2 w-25">
+                            <img src="./assets/images/clock-icon.svg" height="40" width="40" alt="">
+                            <p>Vancouver's longest check-in and check-out hours to accomodate your schedule.
+                                We're here for you 365 days/year.
+                            </p>
+                    </div>
+                    <div class="p-2 w-25">
+                        <img src="./assets/images/mobile-icon.svg" height="40" width="40" alt="">
+                        <p>Daily facebook updates and a departure date email report so you'll always be in-the-know.</p>
+                    </div>
+                </div>
+             <div class="d-flex flex-row" id="services-row">
+                <div class="p-2 w-25">
+                    <img src="./assets/images/capsule-icon.svg" height="40" width="40" alt="">
+                    <p>
+                        Attention to your dog's every need including medication administration and dietary requirements as needed.
+                    </p>
+                </div>
+                <div class="p-2 w-25">
+                    <img src="./assets/images/care-icon.svg" height="40" width="40" alt="">
+                    <p>One-on-one attention for each and every pup.
+                    </p>
+                </div>
+                <div class="p-2 w-25">
+                    <img src="./assets/images/puppy-icon.svg" height="40" width="40" alt="">
+                    <p>Fun & socialization for mind-body bliss in our extended hours daycare.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="text-center">
+        <h1 class="p-4 m-2">Meet our Team</h1>
+        <p class="mx-5">As Jet Pet, we only hire animal-loving, skilled pet care specialists who offer our guests the 
+           best care possible with integrity and professionalism. We continualy offer on-the-job 
+            training as advancements are made in the pet care industry to ensure we can offer you a 
+        premium dog boarding and cat hotel experience, and your pet an unforgettable stay.
+        </p>
+        <div class="d-flex flex-row p-1 justify-content-around mx-4" id="team-members">
+            <div class="p-2">
+                <img class="rounded-circle mb-2" src="./assets/images/Kate-Tremblay.jpg" alt="">
+                <p class="h6">Kate Tremblay</p>
+            </div>
+            <div class="p-2">
+                <img class="rounded-circle mb-2" src="./assets/images/Jonathan-Martel.jpeg" alt="">
+                <p class="h6">Jonathan Martel</p>
+            </div>
+            <div class="p-2">
+                <img class="rounded-circle mb-2" src="./assets/images/Mackenzie-Bailey.jpg" alt="">
+                <p class="h6">Mackenzie Bailey</p>
+            </div>
+            <div class="p-2">
+                <img class="rounded-circle mb-2" src="./assets/images/Niall-Brady.jpg" alt="">
+                <p class="h6">Niall Brady</p>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <center>
+        <h1 class="m-4">Safety in Every Step: How We Train Our Team</h1>
+        <p style="width:50%;">Awesome dog care doed not happen by accident. It 
+             happens when its's provided by loving experts.
+            
+            In conjuction with one of Canada's premier dog trainers, 
+            Annika McDade of <u> Canine Connection Training</u>, we have 
+            developed a proprietary dog walker certification and 
+            education program. DogForceU is the first pet  industry team 
+            trainig program in Canada and ensures your pup is in the 
+            safest hands in the industry. 
+        </p>
+        <h6 class="mb-4" style="color:darkblue;width:60%;">
+            Questions about our services or facility? We love helping pet parents find peace of mind that
+            their furry family members will be in caring hands of professional staff! 
+        </h6>
+        <button id="chat-button" class="btn mb-4">Lets Chat About Your Dog</button></center>
+      </section>
+
+      <footer class="py-2 justify-content-center border-top">
+        <center><p class="mt-1 col-md-4 text-muted">2019 © JetPet</p></center>
+      </footer>
+</body>
+</html>

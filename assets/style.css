@@ -1,0 +1,194 @@
+:root{
+    --darkblue:darkblue;
+    --heavyblue:rgb(62, 62, 203);
+    --cyan:rgb(172, 244, 244);
+    --pale-cyan:#8ed1fc;
+    --white:white;
+    --orange:orange;
+    --lightgray:lightgray;
+}
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.back-image {
+    background-image: url("./images/img-1.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin-top:6%;
+  }
+  #information{ 
+    color:var(--white);
+    background-color: var(--orange);
+    padding:0.5rem;
+    font-size: large;
+  } 
+  .form{
+    background-color: var(--cyan);
+  }
+  #form-div{
+    position: absolute;
+    max-width: 300px;
+    right:5%;
+    top:10%;
+    padding:16px;
+  }
+  .centered-text{
+    color:var(--white);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width:40%;
+    transform: translate(-50%, -50%);
+  }
+  
+  input[type=text], input[type=number] {
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0 15px 0;
+    border: none;
+    background: var(--white);
+  }
+  
+  #continue-button {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  #about-us{
+    min-height: 450px;
+  }
+  #experience{
+    background-color:var(--darkblue);
+    min-height: 450px;
+    color:var(--white);
+  }
+  #services div{
+    color: var(--heavyblue);
+    justify-content: center;
+  }
+  #team{
+    background-color: var(--pale-cyan);
+    min-height: 432px;
+  }
+  #team div img{
+    height:150px;
+    width:150px;
+  }
+  #team div p{
+    color:var(--darkblue);
+  }
+  #chat-button {
+    background-color: var(--orange);
+    color: var(--white);
+    padding: 12px 16px;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    opacity: 0.9;
+    border: 5px;
+  }
+  footer{
+    background-color:var(--lightgray);
+  }
+
+  @media screen and (max-width: 768px){
+    #paragraph{
+        font-size: smaller;
+    }
+    #chat-button{
+        width:40%;
+    }
+    #PetImage{
+        margin-top:22%;
+    }
+  }
+
+  @media screen and (max-width: 725px) {
+    .centered-text{
+      font-size:small;
+    }
+    #about-us{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #PetImage{
+        margin: 0;
+    }
+    #chat-button{
+        width:50%;
+    }
+    #form-div{
+        max-width: 250px;
+        font-size: small;
+        padding:10px;
+    }
+    #information{
+        font-size: medium;
+    }
+    #continue-button{
+        padding: 8px 12px;
+    }
+    #services-row{
+        flex-direction: column !important;
+    }
+    #services div{
+        width: 100% !important;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    #team-members{
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+  }
+@media screen and (max-width:545px) {
+    .centered-text{
+        display: none;    
+    }
+    #form-div{
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;  
+    }
+    #team{
+        min-height: 800px;
+    }
+}  
+@media screen and (max-width: 425px) {
+    #BrandName{
+        font-size: medium;
+    }
+    #form-div{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+    #call-now{
+        font-size: small;
+    }
+    #PetImage{
+        height:50%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #form-div{
+        width: 100%;
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+    #chat-button{
+        width:55%;
+    }
+}
+
+  
